@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.78c8d050.css",
+    "main.js": "/shop/static/js/main.479c9db4.js",
+    "static/media/banner.jpg": "/shop/static/media/banner.3957cc6d0b4ed5da24d0.jpg",
+    "static/media/15.jpg": "/shop/static/media/15.7c3462e5251e1e7e3576.jpg",
+    "static/media/1.jpg": "/shop/static/media/1.e82af4dfedd547c03c1c.jpg",
+    "static/media/13.jpg": "/shop/static/media/13.30e49b9f2a7687688136.jpg",
+    "static/media/11.jpg": "/shop/static/media/11.b6e67ee7dc496f8d8348.jpg",
+    "static/media/10.jpg": "/shop/static/media/10.589fda489eaa955426a9.jpg",
+    "static/media/5.jpg": "/shop/static/media/5.ad3e750ab7f3d058cedd.jpg",
+    "static/media/12.jpg": "/shop/static/media/12.275831c9f8115148fa76.jpg",
+    "static/media/16.jpg": "/shop/static/media/16.a98a5eab8a9c06c0404c.jpg",
+    "static/media/3.jpg": "/shop/static/media/3.3b40e40667fc54804c69.jpg",
+    "static/media/14.jpg": "/shop/static/media/14.ef86d86f03fefd9b35fd.jpg",
+    "static/media/4.jpg": "/shop/static/media/4.4deeffc6dca9ae454e24.jpg",
+    "static/media/17.jpg": "/shop/static/media/17.572626176bca9ad1b287.jpg",
+    "static/media/7.jpg": "/shop/static/media/7.657158cae719c55225bd.jpg",
+    "static/media/8.jpg": "/shop/static/media/8.b43f94c8fc14d8490a38.jpg",
+    "static/media/BOY-1.jpg": "/shop/static/media/BOY-1.1a68c30e9a032fa7c9c8.jpg",
+    "static/media/18.jpg": "/shop/static/media/18.9ed036eed5c2dbf5e0a6.jpg",
+    "static/media/2.jpg": "/shop/static/media/2.ce5ab5f4ce69888f3a16.jpg",
+    "static/media/WOMAN-2.jpg": "/shop/static/media/WOMAN-2.d18aad5907d4259df44c.jpg",
+    "static/media/GIRL-1.jpg": "/shop/static/media/GIRL-1.2d8669a9a4afe49028b7.jpg",
+    "static/media/9.jpg": "/shop/static/media/9.a0db7c0d20c15b2fe1e4.jpg",
+    "static/media/6.jpg": "/shop/static/media/6.0f2a67ca083c225669dc.jpg",
+    "static/media/WOMAN-1.jpg": "/shop/static/media/WOMAN-1.8d3d0efc69a92b77c0eb.jpg",
+    "static/media/MAN-1.jpg": "/shop/static/media/MAN-1.2d04540806b83c628ee3.jpg",
+    "static/media/MAN-2.jpg": "/shop/static/media/MAN-2.e5ef18d30284cbb06dce.jpg",
+    "static/media/GIRL-2.jpg": "/shop/static/media/GIRL-2.6aefd51bd5fde9a8581c.jpg",
+    "static/media/BOY-2.jpg": "/shop/static/media/BOY-2.9ed036eed5c2dbf5e0a6.jpg",
+    "index.html": "/shop/index.html",
+    "main.78c8d050.css.map": "/shop/static/css/main.78c8d050.css.map",
+    "main.479c9db4.js.map": "/shop/static/js/main.479c9db4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78c8d050.css",
+    "static/js/main.479c9db4.js"
+  ]
+}
