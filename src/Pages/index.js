@@ -1,0 +1,5 @@
+export { default as Home } from './Home/Home'
+export { default as Boy } from './Boy/Boy'
+export { default as Girl } from './Girl/Girl'
+export { default as Man } from './Man/Man'
+export { default as Woman } from './Woman/Woman'

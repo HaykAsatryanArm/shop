@@ -1,0 +1,77 @@
+.shoes {
+    padding: 25px 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    @media (max-width: 1024px) {
+        & {
+            grid-template-columns: repeat(3, 1fr);
+            & .shoe {
+                &__name, &__season {
+                    font-size: 2.2vw !important;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        & {
+            grid-template-columns: repeat(2, 1fr);
+            & .shoe {
+                &__name, &__season {
+                    font-size: 3vw !important;
+                }
+            }
+        }
+    }
+    @media (max-width: 375px) {
+        & {
+            grid-template-columns: repeat(1, 1fr);
+            & .shoe {
+                &__name, &__season {
+                    font-size: 6vw !important;
+                }
+            }
+        }
+    }
+    & .shoe {
+        background: rgb(255, 255, 255);
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 1rem;
+        overflow: hidden;
+        grid-row: span 1;
+        grid-column: span 1;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all .3s linear;
+        &:hover {
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+        }
+        &__img {
+            width: 100%;
+            & img {
+                width: 100%;
+            }
+        }
+        &__title {
+            width: 100%;
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__name, &__season {
+            font-size: 1.6vw;
+            margin: 5px 0;
+        }
+        &__info {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Sofia Sans', sans-serif;
+        }
+    }
+}   

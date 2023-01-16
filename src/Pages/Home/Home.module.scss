@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500&display=swap');
+
+.home {
+    width: 100%;
+    position: relative;
+    & .banner {
+        user-select: none;
+        width: 100%;
+        position: relative;
+        &:before {
+            content: 'SHOES FOR EVERYONE';
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            font-size: 7vw;
+            position: absolute;
+            z-index: 2;
+            font-family: 'Rowdies', cursive;
+            text-shadow: 0px 0px 10px rgba(129, 129, 129, 0.88);
+            color: #ffffff;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: rgba(129, 129, 129, 0.5);
+            backdrop-filter: blur(8px);
+        }
+        & img {
+            width: 100%;
+        }
+    }
+    & .shoes {
+        padding: 25px 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        grid-auto-rows: minmax(100px, auto);
+        @media (max-width: 1024px) {
+            & {
+                grid-template-columns: repeat(3, 1fr);
+                & .shoe {
+                    &__name, &__season {
+                        font-size: 2.2vw !important;
+                    }
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            & {
+                grid-template-columns: repeat(2, 1fr);
+                & .shoe {
+                    &__name, &__season {
+                        font-size: 3vw !important;
+                    }
+                }
+            }
+        }
+        @media (max-width: 375px) {
+            & {
+                grid-template-columns: repeat(1, 1fr);
+                & .shoe {
+                    &__name, &__season {
+                        font-size: 6vw !important;
+                    }
+                }
+            }
+        }
+        & .shoe {
+            background: rgb(255, 255, 255);
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+            border-radius: 1rem;
+            overflow: hidden;
+            grid-row: span 1;
+            grid-column: span 1;
+            position: relative;
+            overflow: hidden;
+            &__img {
+                width: 100%;
+                & img {
+                    width: 100%;
+                }
+            }
+            &__title {
+                width: 100%;
+                display: flex;
+                position: relative;
+                align-items: center;
+                justify-content: space-between;
+            }
+            &__name, &__season {
+                font-size: 1.6vw;
+                margin: 5px 0;
+            }
+            &__info {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+                font-size: 20px;
+                font-family: 'Sofia Sans', sans-serif;
+            }
+        }
+    }   
+    & .options {
+        margin-top: 10px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        & .option {
+            cursor: pointer;
+            & a {
+                text-decoration: none;
+                color: rgb(66, 66, 66);
+                font-size: 1.8vw;
+                @media (max-width: 768px) {
+                    & {
+                        font-size: 4vw;
+                    }
+                }
+            }
+        }
+    }
+}

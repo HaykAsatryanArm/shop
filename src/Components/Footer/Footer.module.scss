@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;600&display=swap');
+
+.footer {
+    width: 100%;
+    background: rgb(247, 247, 247);
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    @media (max-width: 425px) {
+        & {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    & * {
+        font-family: 'Sofia Sans', sans-serif;
+    }
+
+    & .sections {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+        &__title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        &__list {
+            list-style: none;
+            margin-top: 10px;
+
+            &Item {
+                font-size: 18px;
+                margin: 2px;
+
+                & a {
+                    text-decoration: none;
+                    color: rgb(66, 66, 66);
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    & .social {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+        &__title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        &__list {
+            list-style: none;
+            margin-top: 10px;
+
+            &Item {
+                font-size: 18px;
+                margin: 2px;
+
+                & a {
+                    display: flex;
+                    text-decoration: none;
+                    color: rgb(66, 66, 66);
+                    font-weight: 300;
+                }
+
+                &__icon {
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    & .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+        &__title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        &__list {
+            list-style: none;
+            margin-top: 10px;
+
+            &Item {
+                font-size: 18px;
+                margin: 2px;
+                display: flex;
+                text-decoration: none;
+                color: rgb(66, 66, 66);
+                font-weight: 300;
+
+                &__icon {
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
